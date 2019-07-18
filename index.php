@@ -1,0 +1,100 @@
+<?php
+
+$img="https://www.kankanwu.com/Uploads/vod/2019-06-28/5d14eb50727a5.jpg";
+
+$arr=[
+    "status"=>"success",
+    "results"=>[
+        "m2"=>[
+            [
+                "title"=>"最新电视剧",
+                "big_vertical_image"=>$img,
+                "type"=>"image"
+            ],
+        ],
+        "m3"=>[
+            [
+                "title"=>"电影",
+                "big_horizontal_image"=>$img,
+                "big_vertical_image"=>$img,
+                "type"=>"image"
+            ],
+            [
+                "title"=>"电影",
+                "big_horizontal_image"=>$img,
+                "big_vertical_image"=>$img,
+                "type"=>"image"
+            ],
+            [
+                "title"=>"电影",
+                "big_horizontal_image"=>$img,
+                "big_vertical_image"=>$img,
+                "type"=>"image"
+            ],
+            [
+                "title"=>"电影",
+                "big_horizontal_image"=>$img,
+                "big_vertical_image"=>$img,
+                "type"=>"image"
+            ],
+        ],
+        "m4"=>[
+            [
+                "title"=>"动漫",
+                "big_horizontal_image"=>$img,
+                "big_vertical_image"=>$img,
+                "type"=>"image"
+            ],
+            [
+                "title"=>"动漫",
+                "big_horizontal_image"=>$img,
+                "big_vertical_image"=>$img,
+                "type"=>"image"
+            ],
+            [
+                "title"=>"动漫",
+                "big_horizontal_image"=>$img,
+                "big_vertical_image"=>$img,
+                "type"=>"image"
+            ],
+        ],
+        "channel"=>[
+            [
+                "big_vertical_image"=>$img,
+                "title"=>"电影",
+                "image"=>$img,
+                "type"=>"image",
+            ],
+            [
+                "big_vertical_image"=>$img,
+                "title"=>"电视剧",
+                "image"=>$img,
+                "type"=>"image",
+            ],
+            [
+                "big_vertical_image"=>$img,
+                "title"=>"动漫",
+                "image"=>$img,
+                "type"=>"image",
+            ],
+        ],
+        "top"=>[
+            [
+                "title"=>"九州缥缈录",
+                "image"=>"https://www.kankanwu.com/Uploads/vod/2019-06-14/5d030516d28b4.jpg",
+                "type"=>"image",
+            ],
+            [
+                "title"=>"蜘蛛侠",
+                "image"=>"https://www.kankanwu.com/Uploads/vod/2019-06-28/5d15a83d5143c.jpg",
+                "type"=>"image",
+            ],
+           
+        ]
+    ],
+
+    
+
+];
+
+exit(json_encode($arr));
