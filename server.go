@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"io/ioutil"
 	"net/http"
 )
 
@@ -35,38 +36,44 @@ type MovieChannel struct {
 	Image string `json:"image"`
 }
 
+func loadJson() (jsonByte []byte, err error) {
+	jsonByte, err = ioutil.ReadFile("./mock.json")
+	return
+}
+
 func apiIndex(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("REQUEST:", r.URL)
-	data := &ApiResponse{
-		Status: "success",
-		Results: map[string][]MovieItem{
-			"m2": []MovieItem{
-				MovieItem{
-					Title:              "test",
-					BigHorizontalImage: "sss",
-				},
-			},
-			"m3": []MovieItem{
-				MovieItem{
-					Title:              "test",
-					BigHorizontalImage: "sss",
-				},
-			},
-			"m4": []MovieItem{
-				MovieItem{
-					Title:              "test",
-					BigHorizontalImage: "sss",
-				},
-			},
-		},
-		Channel: []MovieChannel{
-			MovieChannel{
-				Title: "XXX",
-				Image: "DFD",
-			},
-		},
-	}
-	jsonStr, _ := json.Marshal(data)
+	// data := &ApiResponse{
+	// 	Status: "success",
+	// 	Results: map[string][]MovieItem{
+	// 		"m2": []MovieItem{
+	// 			MovieItem{
+	// 				Title:              "test",
+	// 				BigHorizontalImage: "sss",
+	// 			},
+	// 		},
+	// 		"m3": []MovieItem{
+	// 			MovieItem{
+	// 				Title:              "test",
+	// 				BigHorizontalImage: "sss",
+	// 			},
+	// 		},
+	// 		"m4": []MovieItem{
+	// 			MovieItem{
+	// 				Title:              "test",
+	// 				BigHorizontalImage: "sss",
+	// 			},
+	// 		},
+	// 	},
+	// 	Channel: []MovieChannel{
+	// 		MovieChannel{
+	// 			Title: "XXX",
+	// 			Image: "DFD",
+	// 		},
+	// 	},
+	// }
+	// jsonStr, _ := json.Marshal(data)
+	jsonStr, _ := loadJson()
 	fmt.Println(string(jsonStr))
 
 	w.Write(jsonStr)

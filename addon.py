@@ -24,8 +24,8 @@ socket.setdefaulttimeout(10)
 
 #URL base
 # HOST = 'http://tv.api.3g.youku.com/'
-# HOST = 'http://localhost:8082/'
-HOST = 'http://localhost/'
+HOST = 'http://localhost:8082/'
+# HOST = 'http://localhost/'
 IDS = 'pid=0ce22bfd5ef5d2c5&guid=12d60728bd267e3e0b6ab4d124d6c5f0&ngdid=357e71ee78debf7340d29408b88c85c4&ver=2.6.0&operator=T-Mobile_310260&network=WIFI&launcher=0'
 
 #Fixed tabs

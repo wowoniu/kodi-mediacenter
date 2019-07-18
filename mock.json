@@ -1,0 +1,75 @@
+{
+    "status": "success",
+    "results": {
+        "m2": [{
+            "title": "最新电视剧",
+            "big_vertical_image": "https://www.kankanwu.com/Uploads/vod/2019-06-28/5d14eb50727a5.jpg",
+            "type": "image"
+        }],
+        "m3": [{
+            "title": "电影",
+            "big_horizontal_image": "https://www.kankanwu.com/Uploads/vod/2019-06-28/5d14eb50727a5.jpg",
+            "big_vertical_image": "https://www.kankanwu.com/Uploads/vod/2019-06-28/5d14eb50727a5.jpg",
+            "type": "image"
+        }, {
+            "title": "电影",
+            "big_horizontal_image": "https://www.kankanwu.com/Uploads/vod/2019-06-28/5d14eb50727a5.jpg",
+            "big_vertical_image": "https://www.kankanwu.com/Uploads/vod/2019-06-28/5d14eb50727a5.jpg",
+            "type": "image"
+        }, {
+            "title": "电影",
+            "big_horizontal_image": "https://www.kankanwu.com/Uploads/vod/2019-06-28/5d14eb50727a5.jpg",
+            "big_vertical_image": "https://www.kankanwu.com/Uploads/vod/2019-06-28/5d14eb50727a5.jpg",
+            "type": "image"
+        }, {
+            "title": "电影",
+            "big_horizontal_image": "https://www.kankanwu.com/Uploads/vod/2019-06-28/5d14eb50727a5.jpg",
+            "big_vertical_image": "https://www.kankanwu.com/Uploads/vod/2019-06-28/5d14eb50727a5.jpg",
+            "type": "image"
+        }],
+        "m4": [{
+            "title": "动漫",
+            "big_horizontal_image": "https://www.kankanwu.com/Uploads/vod/2019-06-28/5d14eb50727a5.jpg",
+            "big_vertical_image": "https://www.kankanwu.com/Uploads/vod/2019-06-28/5d14eb50727a5.jpg",
+            "type": "image"
+        }, {
+            "title": "动漫",
+            "big_horizontal_image": "https://www.kankanwu.com/Uploads/vod/2019-06-28/5d14eb50727a5.jpg",
+            "big_vertical_image": "https://www.kankanwu.com/Uploads/vod/2019-06-28/5d14eb50727a5.jpg",
+            "type": "image"
+        }, {
+            "title": "动漫",
+            "big_horizontal_image": "https://www.kankanwu.com/Uploads/vod/2019-06-28/5d14eb50727a5.jpg",
+            "big_vertical_image": "https://www.kankanwu.com/Uploads/vod/2019-06-28/5d14eb50727a5.jpg",
+            "type": "image"
+        }],
+        "channel": [{
+            "big_vertical_image": "https://www.kankanwu.com/Uploads/vod/2019-06-28/5d14eb50727a5.jpg",
+            "title": "电影",
+            "image": "https://www.kankanwu.com/Uploads/vod/2019-06-28/5d14eb50727a5.jpg",
+            "type": "image"
+        }, {
+            "big_vertical_image": "https://www.kankanwu.com/Uploads/vod/2019-06-28/5d14eb50727a5.jpg",
+            "title": "电视剧",
+            "image": "https://www.kankanwu.com/Uploads/vod/2019-06-28/5d14eb50727a5.jpg",
+            "type": "image"
+        }, {
+            "big_vertical_image": "https://www.kankanwu.com/Uploads/vod/2019-06-28/5d14eb50727a5.jpg",
+            "title": "动漫",
+            "image": "https://www.kankanwu.com/Uploads/vod/2019-06-28/5d14eb50727a5.jpg",
+            "type": "image"
+        }],
+        "top": [{
+            "title": "九州缥缈录",
+            "image": "https://www.kankanwu.com/Uploads/vod/2019-06-14/5d030516d28b4.jpg",
+            "type": "image",
+            "path": "https://letv.com-t-letv.com/20190716/3548_97b89dd1/index.m3u8",
+            "mtype": "top",
+            "top_id": 10
+        }, {
+            "title": "蜘蛛侠",
+            "image": "https://www.kankanwu.com/Uploads/vod/2019-06-28/5d15a83d5143c.jpg",
+            "type": "image"
+        }]
+    }
+}
