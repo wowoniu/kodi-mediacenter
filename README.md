@@ -1,2 +1,3 @@
 # kodi-mediacenter
-kodi家庭多媒体插件开发测试
+
+根据仓库里已有的youkutv插件来改一个自己能用的家庭电影院
